@@ -13,7 +13,7 @@ head
 
 body
 {
-    background-image: url("/img/math_wallpaper.jpg");
+    background-image: url("/math_wallpaper.jpg");
     background-size:500px ;
     color: white;
     overflow-x: hidden;
