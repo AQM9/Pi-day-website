@@ -1,0 +1,152 @@
+* 
+{
+   margin: 0px;
+   padding: 0px;
+    box-sizing: border-box;
+}
+
+head
+{
+    font-family: 'Hind Vadodara', sans-serif;
+
+}
+
+body
+{
+    background-image: url("/img/math_wallpaper.jpg");
+    background-size:500px ;
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.nav-a
+{
+ text-decoration: none;
+}
+.nav-a::after
+{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width  1s ;
+}
+.nav-a:hover:after
+{
+    width: 100%;
+    transition: width  1s ;
+}
+
+header
+{
+    
+   position: relative;
+   left: 1550px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.nav-area
+{
+    list-style: none;
+}
+
+.nav-area li 
+{
+    
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a
+{
+    color: white;
+}
+
+
+.logo
+{
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+    width: 50px;
+
+}
+
+.what
+{
+ text-align: center;
+ font-size: 80px;
+}
+div p img
+{
+    position: relative;
+    width: 150px;
+    top: 150px;
+     right: 450px;
+}
+
+.well
+{
+    position: relative;
+    top: 150px;
+    right: 250px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.story
+{
+    position: relative;
+   top: 170px;
+    text-indent: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container
+{
+ transform: translateX(-50%) translateY(-50);
+}
+.how
+{
+    position: relative;
+    top: 170px;
+     text-indent: 390px;
+     font-size: 29px;
+     text-align: center;
+}
+
+.what-pi-used-for
+{
+    position: relative;
+    top: 170px;
+     text-indent: 200px;
+     font-size: 28px;
+     text-align: center;
+     padding: 20px;
+     margin: 20px;
+}
+
+.pi-used-for
+{
+    position: relative;
+    top: 150px;
+    left: 550px;
+ font-size: 60px;
+ padding: 10px;
+ margin: 10px;
+}
+footer
+{
+    position: relative;
+    top: 130px;
+    left: 1600px;
+    padding: 10px;
+    margin: 10px;
+
+}
